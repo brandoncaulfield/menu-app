@@ -176,7 +176,6 @@ export function OrderForm() {
                                 <OutlinedInput
                                     id="outlined-adornment-amount"
                                     value={amount}
-                                    // onChange={handleChange('amount')}
                                     startAdornment={<InputAdornment position="start">$</InputAdornment>}
                                     label="Amount"
                                     disabled

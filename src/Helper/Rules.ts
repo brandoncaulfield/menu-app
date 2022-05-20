@@ -1,5 +1,3 @@
-import { Choices } from '../Components/OrderForm';
-
 export const coursesCountChecker = (choices) => {
     // Each person must have at least two courses, one of which must be a main
     try {
@@ -20,5 +18,3 @@ export const coursesCountChecker = (choices) => {
         throw err;
     }
 };
-
-// module.exports = coursesCountChecker;
